@@ -24,14 +24,10 @@ header{
 
 
 
- width: 99%;
-    margin-left: 10px;
+ margin-left: 10px;
     border-radius: 100px;
-    height: 70px;
-    /* padding: 20px; */
-   /* backdrop-filter: blur(7px); */
-   margin-top: 10px;
-    /* position: fixed; */
+    backdrop-filter: blur(7px);
+    margin-top: 10px;
     transition: all 1s ease;
     flex-wrap: wrap;
     z-index: 999;
@@ -1165,6 +1161,7 @@ header {
    }
 
 }
+
 
 
 
