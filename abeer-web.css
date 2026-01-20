@@ -502,6 +502,7 @@ display: flex;
 
 .prod-hed{
     margin-bottom: 70px;
+ margin-top: 95px;
     text-align: center;
     font-size: 40px;
     color: #000000ba;
@@ -603,6 +604,7 @@ transform: translateY(-5px);
 .project-hed{
     margin-bottom: 30px;
     text-align: center;
+ margin-top: 175px;
     font-size: 40px;
     color: #000000ba;
     font-weight: 600;
@@ -1146,4 +1148,5 @@ header {
    .skils-listt-bank span{
     font-size: 10px;
    }
+
 }
