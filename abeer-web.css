@@ -50,6 +50,7 @@ header{
 nav{
     display: flex;
     color: black;
+    justify-content: center;
     padding-right: 10px;
     position: relative;
     gap: 20px;
@@ -1163,6 +1164,7 @@ header {
    }
 
 }
+
 
 
 
