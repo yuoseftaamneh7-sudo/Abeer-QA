@@ -160,6 +160,7 @@ nav a{
 
 .ccv{
     padding-right: 30px;
+  display: none;
 }
 
 
@@ -1164,6 +1165,7 @@ header {
    }
 
 }
+
 
 
 
