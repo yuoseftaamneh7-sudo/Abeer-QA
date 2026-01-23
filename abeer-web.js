@@ -38,3 +38,21 @@ const observe = new IntersectionObserver(
 
 reveal.forEach(el => observe.observe(el));
 
+
+
+
+
+
+let all = document.querySelectorAll("nav a");
+
+all.forEach(function (ele){
+  ele.onclick = function (){
+    all.forEach(function (ele)  {
+      ele.classList.remove("active");
+    });
+    this.classList.add("active");
+  }
+})
+
+
+
