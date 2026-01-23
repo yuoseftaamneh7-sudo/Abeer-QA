@@ -444,6 +444,9 @@ background-color: rgba(0, 0, 139, 0.642);
   transform: translatex(400px);
   filter: blur(8px);
   transition: all 1.9s ease;
+ animation-delay:0.3s ;
+ transition-delay:0.3;
+ 
 }
 
 .reveal.activ {
@@ -458,6 +461,9 @@ background-color: rgba(0, 0, 139, 0.642);
     transform: translateX(-200px);
   filter: blur(8px);
   transition: all 2s ease;
+  animation-delay:0.5s ;
+ transition-delay:0.5;
+ 
 }
 
 .rer.activ{
@@ -1227,6 +1233,7 @@ transform: translateY(-5px);
    }
 
 }
+
 
 
 
