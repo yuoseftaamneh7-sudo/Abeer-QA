@@ -9,18 +9,8 @@ html,body{
       scroll-behavior: smooth;
 }
 
-header{
-   /* padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 88px;
-    position: fixed;
-    background-color: #fff;
-    box-shadow: 0 3px 16px #0000001a;
-    z-index: 999;
-    width: 81%;
-    border-radius: 62px; */
+/* header{
+  
 
 
 
@@ -36,7 +26,26 @@ header{
 
 
 
+} */
+
+
+header{
+  
+
+     width: 99%;
+    margin-left: 10px;
+    border-radius: 100px;
+    height: 70px;
+    padding: 20px 40px;
+   backdrop-filter: blur(7px);
+   margin-top: 10px;
+    position: fixed;
+    transition: all 1s ease;
+    flex-wrap: wrap;
+    z-index: 999;
+
 }
+
 
 .active{
  color:#008ba5;
@@ -131,6 +140,14 @@ nav a{
     text-decoration: none;
     color: #000000;
 }
+
+@media (max-width: 576px) {
+  header {
+    padding: 15px;
+    border-radius: 0;
+    width: 100%;
+    left: 0;
+  }
 
 #toTop-two{
     position: fixed;
@@ -1172,6 +1189,7 @@ header {
    }
 
 }
+
 
 
 
