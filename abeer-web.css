@@ -939,13 +939,13 @@ transform: translateY(-5px);
 /* =========================================
    تعديلات أساسية لإصلاح التداخل (Global Fixes)
    ========================================= */
-header {
+/* header {
     width: 100%;
     left: 50%;
     padding: 10px 30px;
     height: auto;
     min-height: 80px;
-}
+} */
 
 .logoo {
     margin-left: 0;
@@ -1189,6 +1189,7 @@ header {
    }
 
 }
+
 
 
 
