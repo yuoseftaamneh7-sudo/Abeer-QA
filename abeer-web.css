@@ -148,7 +148,7 @@ nav a{
     width: 100%;
     left: 0;
   }
-
+}
 #toTop-two{
     position: fixed;
     bottom: 25px;
@@ -1189,6 +1189,7 @@ transform: translateY(-5px);
    }
 
 }
+
 
 
 
