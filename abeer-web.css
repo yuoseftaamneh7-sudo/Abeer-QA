@@ -1027,13 +1027,8 @@ header {
         padding-inline: 10vw;
     }
 
- .about-my{
-  animation: none;
- }
 
- .project{
-   animation: none;
- }
+
 
     header {
         flex-direction: column; /* ترتيب العناصر تحت بعض لمنع التداخل */
@@ -1177,6 +1172,7 @@ header {
    }
 
 }
+
 
 
 
